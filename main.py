@@ -29,7 +29,7 @@ mein_Menu.add_command(label="Add")
 mein_Menu.add_command(label="Info")
 mein_Menu.add_command(label="Exit", command=window.quit)
 
-# carga el menu
+# loading menu
 window.config(menu=mein_Menu)
 
 
